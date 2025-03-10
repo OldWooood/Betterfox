@@ -12,3 +12,8 @@
 moz-button[view$="-sidebar-action"] {
   display: none !important;
 }
+
+/* hide sidebar setting buttons */
+moz-button[view="viewCustomizeSidebar"] {
+  display: none !important;
+}
