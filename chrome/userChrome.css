@@ -6,4 +6,9 @@
 /* center bookmarks toolbar */
 #PlacesToolbarItems {
   justify-content: center;
+  padding-bottom: 2px;
+}
+
+#PersonalToolbar {
+  margin-top: -4px;
 }
