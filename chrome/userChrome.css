@@ -12,3 +12,8 @@
 #PersonalToolbar {
   margin-top: -4px;
 }
+
+/* hide sidebar extension buttons */
+moz-button[view$="-sidebar-action"] {
+  display: none !important;
+}
