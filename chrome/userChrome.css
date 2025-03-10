@@ -1,3 +1,9 @@
+/* hide vertical-spacer */
 #vertical-spacer {
-    display: none !important;
+  display: none !important;
+}
+
+/* center bookmarks toolbar */
+#PlacesToolbarItems {
+  justify-content: center;
 }
