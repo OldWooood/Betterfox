@@ -17,3 +17,9 @@ moz-button[view$="-sidebar-action"] {
 moz-button[view="viewCustomizeSidebar"] {
   display: none !important;
 }
+
+/* disable tabbrowser-tabbox border&shadow */
+#tabbrowser-tabbox {
+  outline: none !important;
+  box-shadow: none !important;
+}
